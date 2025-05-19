@@ -182,7 +182,7 @@ const CarDetailsPage = () => {
             <div className="lg:col-span-1">
               <div className="bg-white rounded-lg shadow-md p-6 sticky top-24">
                 <div className="flex items-center justify-between mb-6">
-                  <h2 className="text-2xl font-bold">${car.pricePerDay}</h2>
+                  <h2 className="text-2xl font-bold">₹{car.pricePerDay}</h2>
                   <span className="text-gray-600">per day</span>
                 </div>
 
@@ -219,7 +219,7 @@ const CarDetailsPage = () => {
                     <div className="border-t pt-4 mt-4">
                       <div className="flex justify-between mb-2">
                         <span className="text-gray-600">Daily rate</span>
-                        <span>${car.pricePerDay}</span>
+                        <span>₹{car.pricePerDay}</span>
                       </div>
                       <div className="flex justify-between mb-2">
                         <span className="text-gray-600">Number of days</span>
