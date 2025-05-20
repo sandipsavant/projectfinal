@@ -227,7 +227,7 @@ const CarDetailsPage = () => {
                       </div>
                       <div className="flex justify-between font-bold text-lg">
                         <span>Total</span>
-                        <span>${totalPrice}</span>
+                        <span>₹{totalPrice}</span>
                       </div>
                     </div>
                   )}

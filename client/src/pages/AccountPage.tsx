@@ -491,7 +491,7 @@ const AccountPage = () => {
                                 </span>
                               </div>
                               <div className="flex items-center font-semibold">
-                                Total: ${booking.totalPrice}
+                                Total: ₹{booking.totalPrice}
                               </div>
                             </div>
                             

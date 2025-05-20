@@ -190,7 +190,7 @@ const FeaturedCars = () => {
                       className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     />
                     <div className="absolute top-4 right-4 bg-primary-dark text-white px-3 py-1 rounded-full text-sm font-semibold">
-                      ${car.pricePerDay}/day
+                      ₹{car.pricePerDay}/day
                     </div>
                   </div>
                   <div className="p-6">
